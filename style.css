@@ -1,7 +1,174 @@
 
 .desktop {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     position: relative;
     width: 1440 px;
     height: 10187 px;
+}
+
+.top-bar-0 {
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: calc(50% - 1440px/2);
+    top: 0px;    
+}
+
+.top-bar-1 {
+    position: absolute;
+    width: 1238.39px;
+    height: 44.12px;
+    left: calc(50% - 1238.39px/2 - 0.01px);
+    top: 19.5px;
+}
+
+.top-bar-2 {
+    position: absolute;
+    width: 1238.39px;
+    height: 44.12px;
+    left: calc(50% - 1238.39px/2);
+    top: 0px;
+}
+
+.top-bar-3 {
+    position: absolute;
+    width: 139px;
+    height: 44px;
+    left: calc(50% - 139px/2 + 550.51px);
+    top: 0.5px;
+}
+
+.top-bar-circles {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: calc(50% - 60px/2 - 588.99px);
+    top: 11.5px;
+
+    border-radius: 0px;
+}
+
+ #top-bar-button-support {
+     position: absolute;
+     width: 58px;
+     height: 12px;
+     left: calc(50% - 58px/2 + 422.01px);
+     top: 15.5px;
+
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 11px;
+     line-height: 11px;
+
+     text-align: right;
+     letter-spacing: 0.633px;
+     text-transform: uppercase;
+     text-decoration: none;
+
+     color: #6E6D7A
+ }
+
+ #top-bar-button-doo-for-ios {
+    position: absolute;
+    width: 82px;
+    height: 12px;
+    left: calc(50% - 82px/2 + 203.01px);
+    top: 15.5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+
+    text-align: right;
+    letter-spacing: 0.633px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #383938
+ }
+
+ #top-bar-button-download {
+    position: absolute;
+    width: 72px;
+    height: 12px;
+    left: calc(50% - 72px/2 - 0.5px);
+    top: 15px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    
+    text-align: right;
+    letter-spacing: 0.663px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #6E6D7A;
+ }
+
+ #top-bar-button-doo-for-mac {
+    position: absolute;
+    width: 88px;
+    height: 12px;
+    left: calc(50% - 88px/2 + 319.01px);
+    top: 15.5px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    
+    text-align: right;
+    letter-spacing: 0.663px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #6E6D7A;
+ }
+
+#svg-download {
+    position: absolute;
+    width: 139px;
+    height: 44px;
+    left: calc(50% - 139px/2);
+    top: 0px;
+
+    background: #F5F6F9;
+    border-radius: 8px;
+}
+
+#top-bar-circle-0 {
+    position: absolute;
+    left: 0%;
+    right: 71.75%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #64E5A6;
+}
+
+#top-bar-circle-1 {
+    position: absolute;
+    left: 66.53%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #ACBEFB;
+}
+
+#top-bar-circle-2 {
+    position: absolute;
+    left: 30.66%;
+    right: 35.88%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #A3F2CB;
 }
