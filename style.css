@@ -2,8 +2,8 @@
 .desktop {
     background-color: #FFFFFF;
     position: relative;
-    width: 1440 px;
-    height: 10187 px;
+    width: 1440px;
+    height: 10187px;
 }
 
 .top-bar-0 {
@@ -172,3 +172,9 @@
 
     background: #A3F2CB;
 }
+ #three-circles {
+    background-image:
+    url(svg/three-circles.svg);
+    background-repeat: no-repeat;
+ }
+ 
