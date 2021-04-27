@@ -92,10 +92,13 @@
 
  #top-bar-button-download {
     position: absolute;
+    padding: 15px 34px 17px 33px;
+    background-color: #F5F6F9;
+    left: auto;
+    top: auto;
+    border-radius: 8px;
     width: 72px;
     height: 12px;
-    left: calc(50% - 72px/2 - 0.5px);
-    top: 15px;
     
     font-family: Roboto;
     font-style: normal;
@@ -177,4 +180,3 @@
     url(svg/three-circles.svg);
     background-repeat: no-repeat;
  }
- 
