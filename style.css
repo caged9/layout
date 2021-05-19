@@ -48,6 +48,14 @@
     border-radius: 0px;
 }
 
+.bar-0 {
+    position: absolute;
+    width: 1238.39px;
+    height: 884.86px;
+    left: calc(50% - 1238.39px/2 - 0.01px);
+    top: 234px;
+}
+
  #top-bar-button-support {
      position: absolute;
      width: 58px;
@@ -179,4 +187,15 @@
     background-image:
     url(svg/three-circles.svg);
     background-repeat: no-repeat;
+ }
+
+ #seven-phones {
+    position: absolute;
+    width: 2477px;
+    height: 712px;
+    left: calc(50% - 2477px/2 + 0.51px);
+    top: 171px;
+    
+    background: url(.png);
+    border-radius: 0px;
  }
